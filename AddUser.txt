@@ -37,3 +37,6 @@ AddUser "rnmith", "", "Ron", "Smith", "ABC", "(416)455-0200", "rsmith@sample.com
 
 ''Invalid input - user already exists
 AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com", "Loan Officer"
+
+''Invaid input - missing username and password
+AddUser "", "", "Ron", "Smith", "ABC", "(416)455-0200", "rsmith@sample.com", "Loan Officer"
