@@ -40,3 +40,6 @@ AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@s
 
 ''Invaid input - missing username and password
 AddUser "", "", "Ron", "Smith", "ABC", "(416)455-0200", "rsmith@sample.com", "Loan Officer"
+
+''Invaid input - password is too short
+AddUser "rnmith", "123", "Ron", "Smith", "ABC", "(416)455-0200", "rsmith@sample.com", "Loan Officer"
