@@ -24,8 +24,12 @@
 '*****************************************************************************
 ''SCRIPT
 
-'valid input
+'valid input 1
 AddCustomer "1122334", "Rita", "White", "1st Street SW", "Toronto", "Ontario", "M3C 0E3", "5877899870", "ritaw@test.email.com"
+'valid input 2
+AddCustomer "1233210", "Steve", "Flat", "2nd Street NE", "Red Deer", "Alberta" "R2D 2C3", "0102030405", ""
+'valid input 3
+AddCustomer "3330222", "Ron", "Capone", "Rainbow street central", "Calgary", "Alberta" "T1Y 2S1", "", ""
 'invalid input - no account number
 AddCustomer "", "Bob", "Flop", "2st Street SW", "Toronto", "Ontario", "M3C 0E3", "5897879850", "bobflop@test.email.com"
 'invalid input - no First Name
